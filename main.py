@@ -30,9 +30,10 @@ def fileProcessing(programArray):
             # pass
 
         if len(line) == 3:
-            # get current index of line
-            # print(programArray.index(line))
-            goto[line[2]] = programArray.index(line)
+            if line[2][0].isupper() and line[2][-1] == ':':
+                # get current index of line
+                # print(programArray.index(line))
+                goto[line[2]] = programArray.index(line)
 
     print(opt)
     print(var)
@@ -88,12 +89,16 @@ def fileProcessing(programArray):
 
 
 def main():
-    programArray = readProgramFromFile('programToTranslate.txt')
+    filename = str(input("Input the name of .txt file to read: "))
+    if filename[-4:] != '.txt':
+        filename += '.txt'
+    programArray = readProgramFromFile(filename)
+
     # print(programArray)
     endStrings = fileProcessing(programArray)
     # print(endStrings)
-    name = str(input("Input the name of .ram file: "))
-    writeProgramToFile(f'{name}.ram', endStrings)
+    filename = str(input("Input the name of .ram file:"))
+    writeProgramToFile(f'{filename}.ram', endStrings)
 
 
 if __name__ == '__main__':
