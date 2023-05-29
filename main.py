@@ -30,7 +30,9 @@ def fileProcessing(programArray):
             # pass
 
         if len(line) == 3:
-            goto[line[2]] = opt.index(line[0])
+            # get current index of line
+            # print(programArray.index(line))
+            goto[line[2]] = programArray.index(line)
 
     print(opt)
     print(var)
