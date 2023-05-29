@@ -1,4 +1,4 @@
-# JohnnyCPU-Sim-translating-tool
+# JohnnyCPU Simulator RAM translating tool
 
 Description:
 The TXT-to-JohnnyOptCode Translating Tool is a powerful open-source project designed to streamline the process of translating plain text instructions into special OptCode (Operational Code) for Johnny CPU Simulator program execution.
