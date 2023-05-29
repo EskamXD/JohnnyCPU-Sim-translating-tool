@@ -1,0 +1,19 @@
+TAKE d Begin:
+SUB b
+SAVE c
+TST c
+NULL d
+INC 000
+INC 004
+DEC a
+TST a
+JMP Begin:
+HLT
+a 5
+b 5
+c 0
+d 3
+e 4
+f 5
+g 6
+h 1
