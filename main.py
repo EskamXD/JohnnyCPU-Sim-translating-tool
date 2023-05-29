@@ -86,7 +86,7 @@ def fileProcessing(programArray):
 
 
 def main():
-    programArray = readProgramFromFile('programToTransalate.txt')
+    programArray = readProgramFromFile('programToTranslate.txt')
     # print(programArray)
     endStrings = fileProcessing(programArray)
     # print(endStrings)

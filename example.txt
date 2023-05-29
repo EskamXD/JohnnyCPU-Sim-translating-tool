@@ -1,0 +1,10 @@
+TAKE a Add:
+ADD b 
+SUB c 
+SAVE d 
+JMP Add:
+HLT
+a 2
+b 3
+c 4
+d 0

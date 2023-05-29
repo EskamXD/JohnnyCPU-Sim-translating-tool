@@ -1,0 +1,5 @@
+# add here main.ipynb file
+*.ipynb
+*.ram
+*.txt
+!example.txt
