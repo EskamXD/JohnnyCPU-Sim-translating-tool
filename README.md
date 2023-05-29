@@ -5,4 +5,4 @@ The TXT-to-JohnnyOptCode Translating Tool is a powerful open-source project desi
 
 Key Features:
 
-TXT-to-OptCode Translation: The tool automates the process of translating text files containing Johnny predicted codes into the corresponding .ram binary codes, eliminating the need for manual code generation.
+TXT-to-OptCode Translation: The tool automates the process of translating text files containing Johnny predicted codes into the corresponding .ram numbers codes, eliminating the need for manual coding.
